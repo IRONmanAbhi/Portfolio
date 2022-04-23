@@ -564,8 +564,19 @@ form {
     margin: 0 1.93%;
   }
 
+  .menu {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
   .menu ul {
-    font-size: 13px;
+    font-size: 11px;
+    background-color: rgb(239, 237, 237);
+    border-radius: 20px;
+  }
+
+  .menu ul li {
+    margin-top: 0;
   }
 
   .about {
@@ -579,11 +590,11 @@ form {
   }
 
   .profile img {
-    height: 285px;
+    height: 253px;
   }
 
   .profile {
-    margin: 32px 0px 60px 82px;
+    margin: 28px 0px 60px 72px;
   }
 
   .aboutme {
@@ -598,6 +609,22 @@ form {
   }
 
   .form {
-    padding: 0 50px;
+    padding: 0 25px;
+  }
+
+  .footext {
+    padding: auto;
+    margin: auto;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  span {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  footer .flex {
+    flex-direction: row;
   }
 }

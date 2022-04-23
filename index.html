@@ -226,7 +226,7 @@
         <form
           action="https://formsubmit.co/cf0e67dba1e679a4757a0e1f180d481f"
           method="POST"
-          onsubmit="sendEmail(); () => false"
+          onsubmit="sendEmail()"
         >
           <input type="hidden" name="_template" value="basic" />
           <input type="hidden" name="_captcha" value="false" />
@@ -275,8 +275,10 @@
 
     <footer>
       <div class="footer flex">
-        <div class="footext">Abhinav Yadav copyright &copy; 2022</div>
-        <div class="icons">
+        <div class="footext">
+          <span>Abhinav Yadav copyright &copy; 2022</span>
+        </div>
+        <div class="icons flex">
           <a href="https://github.com/IRONmanAbhi" target="_blank"
             ><i class="fa fa-github"></i
           ></a>

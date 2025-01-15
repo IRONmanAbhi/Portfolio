@@ -66,10 +66,20 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  height: 936px;
 }
 
 .landing h1 {
   font-size: 70px;
+  padding-top: 5%;
+  padding-left: 8%;
+}
+
+.landing h2 {
+  padding-left: 8%;
+}
+.socials {
+  padding-left: 8%;
 }
 
 .landing a {
